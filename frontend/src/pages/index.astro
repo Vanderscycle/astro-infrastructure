@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+import Badge from "../components/Badge.svelte";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -36,6 +37,7 @@ import Card from "../components/Card.astro";
     <h1 class="text-3xl font-bold underline decoration-sky-500">
       Hello world!
     </h1>
+    <Badge msg={"hello"} badgeColor={"bg-green-500"} class={"text-white"} />
   </main>
 </Layout>
 
